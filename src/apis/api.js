@@ -1,0 +1,3 @@
+export const API_BASE_URL = `http://api.koreafilm.or.kr/openapi-data2/wisenut/search_api/search_json2.jsp`;
+export const API_MOVIE_DETAIL = `${API_BASE_URL}?collection=kmdb_new2&startCount=0&listCount=10&ServiceKey=${process.env.SERVICE_KEY}`;
+export const API_MOVIE_SORTED_BY_PROD_YEAR = `${API_BASE_URL}?collection=kmdb_new2&startCount=0&listCount=10&sort=prodYear,1&ServiceKey=${process.env.SERVICE_KEY}`;
